@@ -1,0 +1,213 @@
+
+/*** GENERAL ***/
+html, body {
+    font-size: 1.0em;
+}
+a{
+    color: black;
+    font-size: 0.8em;
+}
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: gray;
+}
+
+.fa{
+    font-size: 4.0em;
+    color:#fcca03;
+    padding: 5px;
+    float: left;
+}
+.social .fa, .time .fa{
+    color: gray;
+    font-size: 1.0em;
+}
+
+
+/*** HEADER ***/
+.header {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    padding: 0;
+}
+.header .row{
+    padding: 0;
+}
+.header p{
+    display: inline;
+}
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+}
+.header .time{
+    float: left;
+}
+
+.header .social{
+    float: right;
+}
+
+
+
+.phone-header{
+    width: 100%;
+    margin: 0;
+    background-color: #353535;
+    padding: 0;
+}
+.phone-header img{
+    float: left;
+    padding: 2%;
+}
+.phone-header .data-contact{
+    float: right;
+}
+.phone-header .fa-phone{
+    padding: 3px;
+    font-size: 3.0em;
+    border: 1.5px solid #fcca03;
+}
+
+.phone-header .data-contact h5{
+    color: white;
+}
+
+
+
+/*** NAVBAR ***/
+.navbar {
+    width: 100%;
+    margin: 0;
+    background-color: #fcca03;
+    padding: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fcca03;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a {
+    display: block;
+    color: black;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: white;
+}
+
+/*** CONTACT ***/
+.contact{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.contact-form{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.contact-form p{
+    text-align: left;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+.contact-form form{
+    margin-top: 20px;
+}
+
+.title {
+    width: 60%;
+    font-size: 2.0em;
+    background-color: white;
+    padding: 3%;
+    border: 2px solid #fcca03;
+    margin: 2% 0;
+}
+
+.contact-form .btn {
+    border-radius: 0;
+    width: 30%;
+    float: right;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #fcca03;
+}
+.data-contact .fa-phone-square{
+    color:#fcca03;
+    font-size: 4.0em;
+}
+
+.data-contact .fa-users{
+    font-size: 3.0em;
+}
+
+.data-contact div{
+    position: relative;
+    top: 30%;
+    text-align: left;
+    float: left;
+    padding: 10px;
+}
+.data-contact .fa{
+    float: left;
+}
+.data-contact h5{
+    font-size: 16px;
+    color: #fcca03;
+    font-weight: bold;
+}
+.data-contact p{
+    text-align: left;
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+}
+.work-contact strong{
+    color: black;
+}
+
+/*** FOOTER ***/
+
+.footer {
+    background-image: url("../img/footer-image.jpg");
+    color: gray;
+}
+.footer h2{
+    font-size: 1.4em;
+    color: white;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.footer p{
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 0.8em;
+    margin: 0;
+    overflow: hidden;
+}
+.footer div{
+    height: 350px; 
+    width: 100%;
+    overflow: hidden;
+}
